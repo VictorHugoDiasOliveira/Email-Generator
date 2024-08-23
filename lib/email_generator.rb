@@ -1,5 +1,3 @@
-# lib/email_generator.rb
-
 module EmailGenerator
   DEFAULT_DOMAINS = %w[gmail.com yahoo.com outlook.com example.com].freeze
 
