@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name          = "email_generator"
-    spec.version       = "0.2.0"
+    spec.version       = "0.3.1"
     spec.authors       = ["Victor Oliveira"]
     spec.email         = ["victorhugodias2001@gmail.com"]
 
@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = spec.homepage
     spec.metadata["changelog_uri"] = "#{spec.homepage}/CHANGELOG.md"
+
+    spec.add_dependency "name_generator", "~> 0.1.1"
 
     spec.post_install_message = "Thank you for installing Email-Generator!"
 end

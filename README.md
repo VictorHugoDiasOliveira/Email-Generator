@@ -16,7 +16,3 @@ puts emails  # Example output: ["abc12345@gmail.com", "def67890@gmail.com", ...]
 ## Generate multiple emails with custom domains and username length
 emails = EmailGenerator.generate_emails(5, domains: ['custom.com', 'example.org'], username_length: 12)
 puts emails  # Example output: ["abc12345abcd@custom.com", "def67890abcd@example.org", ...]
-
-## To Do
-
-- generate better username
